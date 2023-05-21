@@ -1,0 +1,10 @@
+.avatar {
+    border-radius: 25px;
+    max-height: 50px;
+    max-width: 50px;
+}
+.userInfo {
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+}

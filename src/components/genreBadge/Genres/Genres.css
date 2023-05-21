@@ -1,0 +1,42 @@
+.checkbox label {
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+
+
+}
+.checkbox input {
+    cursor: pointer;
+    opacity: 0;
+    position: absolute;
+
+}
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.checkbox label::before {
+    content: '';
+    border: 1px solid white;
+    height: 15px;
+    width: 15px;
+
+}
+.checkbox label:hover::before {
+    background-color: cadetblue;
+    box-shadow: 0 0 20px white;
+}
+
+.checkbox input:checked + label::before {
+    content: '\002714';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkolivegreen;
+}
+
+.dark.labe {
+    color: rosybrown;
+}

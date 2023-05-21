@@ -1,12 +1,11 @@
 import React from 'react';
-import {Movies} from "./components";
+import {Layout} from "./layouts/Layout";
+
 
 const App = () => {
     return (
-        <div>
-          <Movies/>
-        </div>
-    );
+        <Layout/>
+    )
 };
 
 export default App;

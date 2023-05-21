@@ -1,0 +1,66 @@
+.mainHeader {
+    display: flex;
+    width: 90%;
+    max-height: 80px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.light .mainHeader {
+    background: rosybrown;
+}
+.user {
+    overflow: hidden;
+    right: 50px;
+    margin-top: 15px;
+    margin-right: 50px;
+
+}
+
+.dark .mainHeader {
+    background-color: #502828;
+}
+
+.divLogo {
+    display: flex;
+    position: relative;
+    top: -75px;
+    left: -20px;
+    transition: transform 0.3s
+
+
+}
+.divLogo:hover {
+    box-shadow: whitesmoke;
+    cursor: pointer;
+    transform: scale(1.015)
+
+}
+
+
+.divMovies {
+    position: relative;
+    top: 13px;
+    left: -240px;
+}
+
+.switch {
+    display: flex;
+    position: relative;
+    align-items: center;
+    top: -10px;
+    left: -150px;
+    min-height: 100px;
+    min-width: 100px;
+}
+
+.light .switch label {
+    color: black;
+}
+.dark .switch label {
+    color: silver;
+}
+.swicher {
+    left: 10px;
+}

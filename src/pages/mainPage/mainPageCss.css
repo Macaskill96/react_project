@@ -1,0 +1,43 @@
+.header {
+    height: 3%;
+    width: 100%;
+    order: 1;
+
+}
+
+
+.moviePage {
+    margin-top: 25px;
+    width:  70%;
+    min-height: 1000px;
+    order: 3;
+}
+.dark.moviePage {
+    background-color: #502828;
+}
+
+.genreBadge {
+    margin-top: 25px;
+    max-width: 330px;
+    min-width: 320px;
+    height: 440px;
+    order: 2;
+}
+.light.genreBadge {
+    background: indianred;
+}
+
+.dark.genreBadge {
+    background-color: #502828;
+}
+
+.mainPage {
+    display: flex;
+    flex-direction: column;;
+}
+.fortwo {
+    min-width: 100%;
+    display: flex;
+    order: 2;
+    justify-content: space-between;
+}
