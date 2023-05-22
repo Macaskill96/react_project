@@ -43,9 +43,7 @@
     margin-top: 20px;
 
 }
-.pagin {
 
-}
 
 
 .inputForm {
@@ -69,6 +67,9 @@
 }
 .dark.ul {
     background-color: silver;
+}
+.light.ul {
+    background-color: white;
 }
 
 .ul::-webkit-scrollbar,

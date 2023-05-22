@@ -11,7 +11,6 @@ const UserMe: FC = () => {
         dispatch(authAction.getAll());
     }, [dispatch]);
 
-    console.log(auth);
 
     return (
         <div className={'userInfo'}>

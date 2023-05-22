@@ -19,8 +19,9 @@ const Header:FC = () => {
     const {theme, toggleTheme} = context;
 
     const home =() => {
-
         navigate('/')
+        window.location.reload();
+
     }
     return (
         <div className={`mainHeader ${theme}`} >

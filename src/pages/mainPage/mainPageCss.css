@@ -11,9 +11,13 @@
     width:  70%;
     min-height: 1000px;
     order: 3;
+
 }
 .dark.moviePage {
     background-color: #502828;
+}
+.light.moviePage {
+    background-color: rosybrown;;
 }
 
 .genreBadge {
@@ -24,7 +28,7 @@
     order: 2;
 }
 .light.genreBadge {
-    background: indianred;
+    background: rosybrown;
 }
 
 .dark.genreBadge {

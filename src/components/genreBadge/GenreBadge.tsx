@@ -19,7 +19,6 @@ const GenreBadge: FC = () => {
         throw new Error('Error');
     }
     const { checkedGenres, setCheckedGenres } = context;
-    console.log(checkedGenres);
 
     const { genre, trigger } = useAppSelector((state) => state.genreReducer);
     const dispatch = useAppDispatch();
@@ -34,7 +33,7 @@ const GenreBadge: FC = () => {
     };
 
     const [from, setFrom] = useState<number[]>([])
-    console.log(from);
+
 
     const handleFind = () => {
         setCheckedGenres(from);

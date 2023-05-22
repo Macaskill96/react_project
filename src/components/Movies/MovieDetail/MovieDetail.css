@@ -61,3 +61,36 @@
         padding: 0.25em 0.75em;
     }
 }
+
+.dark.characters {
+    background-color: #231111;
+    color: rosybrown;
+    box-shadow: 5px 5px 20px black;
+}
+
+.dark.aboutMovie {
+    background-color: #231111 ;
+    color: rosybrown;
+    box-shadow: 5px 5px 20px black;
+}
+.dark.title {
+    background-color: #231111;
+    color: rosybrown;
+    box-shadow: 5px 5px 20px black;
+}
+.light.characters {
+    background-color: #BC8F8FFF;
+    color: #231111;
+    box-shadow: 5px 5px 20px #7e4949;
+}
+
+.light.aboutMovie {
+    background-color: #BC8F8FFF ;
+    color: #231111;
+    box-shadow: 5px 5px 20px #7e4949;
+}
+.light.title {
+    background-color: #BC8F8FFF;
+    color: #231111;
+    box-shadow: 5px 5px 20px #7e4949;
+}

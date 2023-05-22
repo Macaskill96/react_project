@@ -19,6 +19,7 @@ const MovieTest: FC = () => {
     const totalPages = movies.total_pages;
     const displayPageRange = 10;
 
+
     const goToPage = (page: number) => {
         if (page >= 1 && page <= totalPages) {
             setCurrentPage(page);
@@ -128,11 +129,11 @@ const MovieTest: FC = () => {
             </div>
 
             <div className={'blockWithButton'}>
-                <button onClick={prev} className={'pagin'}>
+                <button onClick={prev} className={'pagin'} disabled={currentPage===1}>
                     Prev
                 </button>
                 <div className={'renderPage'}> {renderPageNumbers()} </div>
-                <button onClick={next} className={'pagin'}>
+                <button onClick={next} className={'pagin'} disabled={currentPage===totalPages}>
                     Next
                 </button>
             </div>
