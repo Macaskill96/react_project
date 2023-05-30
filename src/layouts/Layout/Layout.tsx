@@ -19,11 +19,7 @@ const Layout = () => {
     return (
         <div className={`osnova ${theme}`}>
             <ThemeContext.Provider value={{ theme, setTheme, toggleTheme }}>
-            <Routes>
-                <Route path={'/'} element={<MainPage/>}>
-                    <Route path={':id'} element={<MovieDetail/>}/>
-                </Route>
-            </Routes>
+            <MainPage/>
             </ThemeContext.Provider>
         </div>
     );
