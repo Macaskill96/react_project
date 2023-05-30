@@ -11,11 +11,8 @@
     background: rosybrown;
 }
 .user {
-    overflow: hidden;
-    right: 50px;
     margin-top: 15px;
-    margin-right: 50px;
-
+    margin-left: 260px;
 }
 
 .dark .mainHeader {

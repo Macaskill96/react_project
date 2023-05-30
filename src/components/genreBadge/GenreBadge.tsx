@@ -3,7 +3,7 @@ import { useAppDispatch, useAppSelector } from '../../hooks';
 import { genreAction } from '../../redux';
 import {Genres} from './Genres';
 import './GenreBadge.css';
-import { GenresContext } from '../../pages/mainPage';
+import { GenresContext} from "../../pages";
 import {useNavigate} from "react-router-dom";
 import {ThemeContext} from "../../layouts/Layout";
 

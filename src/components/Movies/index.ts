@@ -1,2 +1,3 @@
-export * from './Movies'
-export * from  './MovieTest'
+export * from './MoviesSearch'
+export * from './MovieList'
+export * from './MovieDetail'

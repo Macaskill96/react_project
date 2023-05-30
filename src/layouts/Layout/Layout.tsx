@@ -1,7 +1,5 @@
 import React, {createContext, useState} from 'react';
-import {Route, Routes} from "react-router-dom";
-import {MainPage} from "../../pages/mainPage";
-import {MovieDetail} from "../../components/Movies/MovieDetail/MovieDetail";
+import {MainPage} from '../../pages';
 import './Layout.css'
 
 

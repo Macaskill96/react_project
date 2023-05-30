@@ -1,10 +1,10 @@
 import React, { FC, useContext, useEffect, useRef, useState } from 'react';
 import { useAppDispatch, useAppSelector } from '../../hooks';
 import { movieAction } from '../../redux';
-import { useNavigate, useParams } from 'react-router-dom';
+import { useNavigate} from 'react-router-dom';
 import { ThemeContext } from '../../layouts/Layout';
 
-const Movies: FC = () => {
+const MoviesSearch: FC = () => {
     const { movies, trigger } = useAppSelector((state) => state.movieReducer);
     const dispatch = useAppDispatch();
     const navigate = useNavigate();
@@ -89,4 +89,4 @@ const Movies: FC = () => {
     );
 };
 
-export { Movies };
+export { MoviesSearch };

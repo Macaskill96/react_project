@@ -1,6 +1,6 @@
 import React from 'react';
 import { Outlet, useOutlet } from 'react-router-dom';
-import { MovieTest} from "../../components";
+import { MovieList} from "../../components";
 
 const MoviePage = () => {
     const outlet = useOutlet();
@@ -8,7 +8,7 @@ const MoviePage = () => {
 
     return (
         <div>
-            {!outlet ? <MovieTest/> : <Outlet />}
+            {!outlet ? <MovieList/> : <Outlet />}
         </div>
     );
 };

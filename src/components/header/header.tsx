@@ -1,7 +1,7 @@
 import React, {FC, useContext} from 'react';
 import './Header.css'
 import {Logo} from "../Logo";
-import {Movies} from "../Movies";
+import {MoviesSearch} from "../Movies";
 import {ThemeContext} from "../../layouts/Layout";
 import ReactSwitch from "react-switch";
 import {useNavigate} from "react-router-dom";
@@ -26,7 +26,7 @@ const Header:FC = () => {
     return (
         <div className={`mainHeader ${theme}`} >
             <div className={'divLogo'} onClick={home}><Logo/></div>
-            <div className={'divMovies'}><Movies/></div>
+            <div className={'divMovies'}><MoviesSearch/></div>
             <div className={'switch'}>
                 <label>{theme === 'light' ? 'Light Mode' : 'Night Mode'}</label>
                 <ReactSwitch checked={theme === 'dark'} onChange={toggleTheme} className={'swicher'}/>
